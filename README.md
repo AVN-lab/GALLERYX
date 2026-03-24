@@ -1,16 +1,4 @@
-# galleryx
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+На данном этапе это тестовый проект для практики, который в дальнейшем станет превосходной платформой.
+Пока в практическом режиме сделана первая интерактивная картинка-"капча", где после правильного ответа открывается карта.
+Пока карта сама по себе сухая и несет в себе только функционал просмотра. 24.03.2026
+В дальнейшем будет добавлен функционал поиска адресов, построение маршрута, расчет времени и много другое вкусненькое. 24.03.2026
