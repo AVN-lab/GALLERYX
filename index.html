@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GALLERYX</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="logo">GALLERY<span>X</span></h1>
+      <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="all">All Photos</button>
+        <button class="tab-btn" data-tab="later">
+          Maybe Later
+          <span class="badge" id="later-count">0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- All Photos View -->
+    <section id="tab-all" class="tab-panel active">
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </section>
+
+    <!-- Maybe Later View -->
+    <section id="tab-later" class="tab-panel">
+      <div class="empty-state" id="later-empty">
+        <div class="empty-icon">🕰️</div>
+        <p>No photos saved yet.<br />Hit <strong>Maybe Later</strong> on any photo to save it here.</p>
+      </div>
+      <div class="gallery-grid" id="later-grid"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
