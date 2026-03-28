@@ -19,17 +19,19 @@ class InfoCard extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Информация о маршруте',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 10),
-
           Row(
             children: [
-              Icon(Icons.directions_walk, color: Colors.blue),
+              Icon(
+                Icons.location_on,
+                color: const Color.fromARGB(255, 108, 108, 108),
+              ),
               SizedBox(width: 8),
-              Expanded(child: Text('Улица Пушкина, дом Колотушкина, Кишинев')),
+              Expanded(
+                child: Text(
+                  'Улица Пушкина, дом Колотушкина, Кишинев',
+                  style: TextStyle(fontSize: 12),
+                ),
+              ),
             ],
           ),
 
